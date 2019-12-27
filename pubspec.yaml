@@ -1,0 +1,32 @@
+name: productfinder
+description: hit200 project - product &amp; store locator
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/one.jpg
+
+  fonts:
+    - family: VarelaRound
+      fonts:
+      - asset: fonts/VarelaRound-Regular.ttf
+    - family: Poppins
+      fonts:
+      - asset: fonts/Poppins-Regular.ttf
+      - asset: fonts/Poppins-Bold.ttf
+        weight: 700
+      - asset: fonts/Poppins-Italic.ttf
+        style: italic
